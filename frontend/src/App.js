@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const API_URL = "http://localhost:5000"; // when deployed, replace with Render backend URL
+const API_URL = "https://hotel-management-a5ud.onrender.com"; // when deployed, replace with Render backend URL
 
 function App() {
   const [rooms, setRooms] = useState([]);
